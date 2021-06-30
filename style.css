@@ -1,0 +1,28 @@
+body{
+    background-size: cover;
+}
+.header{
+    font-size: 30px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    margin-top: 0;
+}
+#start, #no_of_object, #status{
+    font-size: 18px;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    line-height: 2;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+canvas{
+    border: 5px solid black;
+    border-radius: 20px;
+    margin-top: 85px;
+    box-shadow: 5px 5px 10px gray;
+}
