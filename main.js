@@ -42,8 +42,8 @@ function draw(){
         g= random(255);
         b= random(255);
         for(i=0;i <objects.length; i++){
-            document.getElementById("status").innerHTML="Status : object Detactor";
-            document.getElementById("no_of_object").innerHTML="Number of object"+objects.length;
+            document.getElementById("status").innerHTML="Status : object Detected";
+            document.getElementById("no_of_objects").innerHTML="Number of object"+objects.length;
             fill("#ffffff");
             pecent=floor(objects[i].confidence * 100);
             text(objects[i].label+" " + pecent+"%",objects[i].x+15, objects[i].y+15);
